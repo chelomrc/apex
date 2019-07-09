@@ -22,6 +22,7 @@ import { AuthService } from './shared/auth/auth.service';
 import { AuthGuard } from './shared/auth/auth-guard.service';
 import { ReservacionComponent } from './reservacion/reservacion.component';
 import { PlanningComponent } from './planning/planning.component';
+import { CheckInComponent } from './check-in/check-in.component';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     suppressScrollX: true,
@@ -34,7 +35,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 
 
   @NgModule({
-    declarations: [AppComponent, FullLayoutComponent, ContentLayoutComponent, ReservacionComponent, PlanningComponent],
+    declarations: [AppComponent, FullLayoutComponent, ContentLayoutComponent, ReservacionComponent, PlanningComponent, CheckInComponent],
     imports: [
       BrowserAnimationsModule,
       AppRoutingModule,

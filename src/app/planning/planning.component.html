@@ -4,24 +4,29 @@
         <div id="simple-card" class="card">
             <div class="card-header">
                 <h4 class="card-title">
-                    planning works!
+                    PLANNING DE RESERVACIONES
                 </h4>
-                <br> {{fechaActual}}
-                <br> {{primerDia}}
-                <br> {{ultimoDia}}
             </div>
 
             <table class="tg">
 
-                <div *ngFor="let i of diasMes">{{i}}</div>
+                <!-- ************ INICIO Fecha y día del Plannig ************ -->
                 <tr>
-                    <th class="tg-mim8"></th>
+                    <th class="tg-ks0x"> </th>
+                    <td *ngFor="let i of arregloDia" class="tg-ks0x"> {{ i }} </td>
                 </tr>
+
                 <tr>
-                    <td class="tg-ks0x"></td>
+                    <th class="tg-habitaciones">Habitación</th>
+                    <th *ngFor="let i of arregloMes" class="tg-fechas"> {{ i }} </th>
                 </tr>
-                <tr>
-                    <td class="tg-0lax"></td>
+
+                <!-- ************ FIN Fecha y día del Plannig ************ -->
+
+
+                <tr *ngFor="let i of arregloMes">
+                    <th class="tg-habitaciones"> </th>
+                    <td *ngFor="let i of arregloMes" class="tg-0lax"></td>
                 </tr>
 
             </table>

@@ -21,7 +21,7 @@
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
-    padding: 10px 5px;
+    padding: 2px 2px;
     border-style: solid;
     border-width: 1px;
     overflow: hidden;
@@ -31,22 +31,32 @@
     background-color: #f0f0f0;
 }
 
-.tg .tg-mim8 {
-    font-size: 12px;
+.tg .tg-fechas {
+    font-size: 10px;
     border-color: #000000;
-    text-align: left;
-    vertical-align: top
+    text-align: center;
+    vertical-align: center
 }
 
 .tg .tg-ks0x {
     font-size: 12px;
+    padding: 2px 2px;
     background-color: #cccccc;
     border-color: #333333;
-    text-align: left;
-    vertical-align: top
+    text-align: center;
+    vertical-align: center
+}
+
+.tg .tg-habitaciones {
+    font-size: 12px;
+    padding: 0px 0px;
+    background-color: #d1ebf7;
+    border-color: #333333;
+    text-align: center;
+    vertical-align: center
 }
 
 .tg .tg-0lax {
-    text-align: left;
-    vertical-align: top
+    text-align: center;
+    vertical-align: center
 }

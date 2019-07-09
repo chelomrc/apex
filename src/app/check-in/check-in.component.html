@@ -1,0 +1,187 @@
+<section id="basic-form-layouts">
+    <!-- <div class="row text-left">
+        <div class="col-sm-12">
+            <div class="content-header">/Check In</div>
+        </div>
+    </div> -->
+    <div class="row text-left justify-content-md-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header pb-2">
+                    <h4 class="card-title" id="basic-layout-form">Tarjeta de Registro</h4>
+                    <p class="mb-0">
+                    </p>
+                </div>
+                <div class="card-content">
+                    <div class="px-3">
+                        <form class="form">
+                            <div class="form-body">
+                                <h4 class="form-section"><i class="ft-user"></i> Información Personal</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="nombres">Nombres</label>
+                                            <input type="text" id="nombres" class="form-control" name="nombres">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="apellidos">Apellidos</label>
+                                            <input type="text" id="apellidos" class="form-control" name="apellidos">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="nacionalidad">Nacionalidad</label>
+                                            <input type="text" id="nacionalidad" class="form-control" name="nacionalidad">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="profesion">Profesión</label>
+                                            <input type="text" id="profesion" class="form-control" name="profesion">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="procedencia">Procedencia</label>
+                                            <input type="text" id="procedencia" class="form-control" name="procedencia">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="edad">Edad</label>
+                                            <input type="number" id="edad" class="form-control" name="edad">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="estadocivil">Estado Civil</label>
+                                            <select id="estadocivil" name="estadocivil" class="form-control">
+                                                <option value="none" selected="" disabled="">Seleccione Estado Civil</option>
+                                                <option value="SOLTERO">SOLTERO</option>
+                                                <option value="CASADO">CASADO</option>
+                                                <!-- <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option> -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="empleado">Tiene Equipaje</label>
+                                            <select id="estadocivil" name="estadocivil" class="form-control">                                                
+                                                <option value="SI">SI</option>
+                                                <option value="NO">NO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="motivo">Motivo de Viaje</label>
+                                            <input type="text" id="motivo" class="form-control" name="motivo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="direccion">Dirección</label>
+                                            <input type="text" id="direccion" class="form-control" name="direccion">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="form-section"><i class="ft-file-text"></i> Habitación</h4>
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="fechaIn">Fecha de Ingreso</label>
+                                            <input type="date" id="fechaIn" class="form-control" name="fechaIn">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="horaIn">Hora de Ingreso</label>
+                                            <div class="position-relative has-icon-left">
+                                                <input type="time" id="horaIn" class="form-control" name="horaIn">
+                                                <div class="form-control-position">
+                                                    <i class="ft-clock"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="fechaOut">Fecha de Salida</label>
+                                            <input type="date" id="fechaOut" class="form-control" name="fechaOut">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="horaOut">Hora de Salida</label>
+                                            <div class="position-relative has-icon-left">
+                                                <input type="time" id="horaOut" class="form-control" name="horaOut">
+                                                <div class="form-control-position">
+                                                    <i class="ft-clock"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="habitacion">Número de Habitación</label>
+                                            <select id="habitacion" name="habitacion" class="form-control">
+                                                <option value="none" selected="" disabled="">Seleccione Habitación</option>
+                                                <option value="design">01 GER</option>
+                                                <option value="development">02 MAT</option>
+                                                <option value="illustration">110 SIMPLE</option>
+                                                <option value="branding">111 MAT</option>
+                                                <option value="video">112 SWB</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="noches">Número de Noches</label>
+                                            <input type="number" id="noches" class="form-control" name="noches">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="observaciones">Observaciones</label>
+                                    <textarea id="observaciones" rows="5" class="form-control" name="observaciones"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-actions center">
+                                <button type="button" class="btn btn-raised btn-raised btn-warning mr-1">
+                                    <i class="ft-x"></i> Cancelar
+                                </button>
+                                <button type="button" class="btn btn-raised btn-raised btn-primary">
+                                    <i class="fa fa-check-square-o"></i> Guardar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
